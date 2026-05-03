@@ -151,20 +151,3 @@ Vision.OnnxTester/
     ├── ImagePreprocessor.cs
     └── YoloV8Detector.cs
 ```
-
----
-
-## 6. 참고 링크
-
-- ONNX Runtime C# API: <https://onnxruntime.ai/docs/get-started/with-csharp.html>
-- SixLabors.ImageSharp 문서: <https://docs.sixlabors.com/articles/imagesharp/>
-- Ultralytics YOLOv8: <https://docs.ultralytics.com/>
-- COCO 클래스 목록: <https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/coco8.yaml>
-
----
-
-## 7. 인코딩 주의사항 (Windows 개발 환경 공통)
-
-이 저장소의 텍스트 파일(`*.md`, `*.cs`, `*.csproj`, `*.xaml` 등)은 모두
-**UTF-8 (BOM 없음)** 으로 관리한다. PowerShell `Out-File` / `Set-Content`
-사용 시 반드시 `-Encoding utf8` 을 명시한다.
