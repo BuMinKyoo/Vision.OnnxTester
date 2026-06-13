@@ -1,5 +1,11 @@
 # Vision.OnnxTester
 
+<br/>
+
+<img width="1085" height="711" alt="image" src="https://github.com/user-attachments/assets/987e5534-e898-48f7-82fe-e9ed3d1d2496" />
+
+<br/>
+
 WPF (.NET 10) 기반의 ONNX Runtime 학습용 테스트 프로젝트.
 YOLOv8 모델을 로드해 정적 이미지(CCTV 스냅샷 등)에서 객체를 검출하고, Bounding Box를 시각화한다.
 
